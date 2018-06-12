@@ -20,7 +20,7 @@ public class Brinquedo {
      */
     
     private String nomeBrinquedo, marca, modelo, Descricao;
-    private double preco;
+    private float preco;
     private int codigo;
     private long codigoDeBarras;
     
@@ -57,10 +57,10 @@ public class Brinquedo {
         return Descricao;
     }
     
-    public void setPreco (double preco){
-        this.preco = preco;
+    public void setPreco (float preco){
+        this.preco =  preco;
     }
-    public double getPreco (){
+    public float getPreco (){
         return preco;
     }
         

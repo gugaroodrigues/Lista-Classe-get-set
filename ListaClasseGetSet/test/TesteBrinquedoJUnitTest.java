@@ -40,8 +40,8 @@ public class TesteBrinquedoJUnitTest {
     @Test
     public void definirPreco(){
         Brinquedo polaris = new Brinquedo();
-        polaris.setPreco(1999.99);
-        assertEquals(1999.99, polaris.getPreco(),0); 
+        polaris.setPreco((float)1999.99);
+        assertEquals((float)1999.99, polaris.getPreco(),0f); 
     }
     
     @Test
